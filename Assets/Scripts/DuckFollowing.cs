@@ -31,7 +31,6 @@ public class DuckFollowing : MonoBehaviour
         {
             playerTransform = other.transform;
             m_Agent.autoBraking = true;
-            m_Agent.isStopped = false;
         }
     }
 }
