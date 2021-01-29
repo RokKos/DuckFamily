@@ -26,10 +26,12 @@ public class DuckFollowing : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other)
-    {
+    {  
         if (other.tag.Equals("Player"))
         {
-            playerTransform = other.transform;
+            var mamaObj = other.gameObject;
+            var mamaDuck = mamaObj.GetComponentInParent<MamaDuck>();
+            playerTransform = mamaDuck.GetLastDuckInLine();
             m_Agent.autoBraking = true;
         }
     }
