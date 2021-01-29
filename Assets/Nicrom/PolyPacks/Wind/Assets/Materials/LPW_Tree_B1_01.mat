@@ -77,7 +77,7 @@ Material:
     - _MBDefaultBending: 0
     - _MBFrequency: 1.11
     - _MBFrequencyOffset: 0.4
-    - _MBMaxHeight: 8
+    - _MBMaxHeight: 19
     - _MBPhase: 1
     - _MBWindBlend: 0
     - _MBWindDir: 90
@@ -98,3 +98,4 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _NoisePannerSpeed: {r: 0.08, g: 0.04, b: 0, a: 0}
     - _NoiseTextureTilling: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
