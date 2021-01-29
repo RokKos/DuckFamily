@@ -117,7 +117,8 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="_lickToMove.cs" t="Include" />
+          <e p="ClickToMove.cs" t="Include" />
+          <e p="DuckFollowing.cs" t="Include" />
         </e>
       </e>
       <e p="Boxophobic.SkyboxCubemapExtended.Editor.csproj" t="IncludeRecursive" />
