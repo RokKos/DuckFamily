@@ -20,16 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="288117d3-a8a5-43d3-a257-0ade132c7bb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Levels/Level03.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Levels/Level03/NavMesh.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Levels/Level03/NavMesh.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Levels/RokLevel.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Levels/RokLevel.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/_uck-mouse.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/_uck-mouse.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/duck-paintbrush.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/duck-paintbrush.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DuckFamily/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DuckFamily/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Levels/Level03.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Level03.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BabyDuck.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BabyDuck.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Duck.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Duck.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611950448992</updated>
       <workItem from="1611950454521" duration="5851000" />
-      <workItem from="1612003729305" duration="1566000" />
+      <workItem from="1612003729305" duration="4042000" />
     </task>
     <servers />
   </component>
@@ -193,49 +191,49 @@
           <line>34</line>
           <properties documentPath="C:\Personal\DuckFamily\Assets\Scripts\DuckFollowing.cs" initialLine="32">
             <startOffsets>
-              <option value="848" />
+              <option value="875" />
             </startOffsets>
             <endOffsets>
-              <option value="875" />
+              <option value="902" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs</url>
-          <line>26</line>
+          <line>48</line>
           <properties documentPath="C:\Personal\DuckFamily\Assets\Scripts\MamaDuck.cs" initialLine="20">
             <startOffsets>
-              <option value="689" />
+              <option value="1455" />
             </startOffsets>
             <endOffsets>
-              <option value="728" />
+              <option value="1494" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs</url>
-          <line>39</line>
+          <line>61</line>
           <properties documentPath="C:\Personal\DuckFamily\Assets\Scripts\MamaDuck.cs" initialLine="28">
             <startOffsets>
-              <option value="1027" />
+              <option value="1793" />
             </startOffsets>
             <endOffsets>
-              <option value="1055" />
+              <option value="1821" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs</url>
-          <line>42</line>
+          <line>64</line>
           <properties documentPath="C:\Personal\DuckFamily\Assets\Scripts\MamaDuck.cs" initialLine="31">
             <startOffsets>
-              <option value="1075" />
+              <option value="1841" />
             </startOffsets>
             <endOffsets>
-              <option value="1113" />
+              <option value="1879" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="6" />
@@ -245,10 +243,10 @@
           <line>33</line>
           <properties documentPath="C:\Personal\DuckFamily\Assets\Scripts\DuckFollowing.cs" initialLine="33">
             <startOffsets>
-              <option value="788" />
+              <option value="815" />
             </startOffsets>
             <endOffsets>
-              <option value="835" />
+              <option value="862" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="7" />
@@ -258,23 +256,23 @@
           <line>32</line>
           <properties documentPath="C:\Personal\DuckFamily\Assets\Scripts\DuckFollowing.cs" initialLine="32">
             <startOffsets>
-              <option value="719" />
+              <option value="746" />
             </startOffsets>
             <endOffsets>
-              <option value="775" />
+              <option value="802" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs</url>
-          <line>21</line>
+          <line>43</line>
           <properties documentPath="C:\Personal\DuckFamily\Assets\Scripts\MamaDuck.cs" initialLine="18">
             <startOffsets>
-              <option value="480" />
+              <option value="1246" />
             </startOffsets>
             <endOffsets>
-              <option value="514" />
+              <option value="1280" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="10" />
