@@ -20,12 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="288117d3-a8a5-43d3-a257-0ade132c7bb5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DuckFamily/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DuckFamily/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DuckFamily/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DuckFamily/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DuckFamily/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DuckFamily/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Levels/Level03.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Level03.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClickToMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ClickToMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DuckFollowing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DuckFollowing.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +43,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/DuckFollowing.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ClickToMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cross.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DuckFollowing.cs" />
       </list>
     </option>
   </component>
@@ -198,13 +196,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/DuckFollowing.cs</url>
-          <line>34</line>
+          <line>36</line>
           <properties documentPath="C:\Personal\DuckFamily\Assets\Scripts\DuckFollowing.cs" initialLine="32">
             <startOffsets>
-              <option value="875" />
+              <option value="950" />
             </startOffsets>
             <endOffsets>
-              <option value="902" />
+              <option value="977" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />
@@ -250,26 +248,26 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/DuckFollowing.cs</url>
-          <line>33</line>
+          <line>35</line>
           <properties documentPath="C:\Personal\DuckFamily\Assets\Scripts\DuckFollowing.cs" initialLine="33">
             <startOffsets>
-              <option value="815" />
+              <option value="890" />
             </startOffsets>
             <endOffsets>
-              <option value="862" />
+              <option value="937" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/DuckFollowing.cs</url>
-          <line>32</line>
+          <line>34</line>
           <properties documentPath="C:\Personal\DuckFamily\Assets\Scripts\DuckFollowing.cs" initialLine="32">
             <startOffsets>
-              <option value="746" />
+              <option value="821" />
             </startOffsets>
             <endOffsets>
-              <option value="802" />
+              <option value="877" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="8" />
