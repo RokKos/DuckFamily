@@ -27,7 +27,7 @@ public class DuckFollowing : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {  
-        if (other.tag.Equals("Player"))
+        if (other.tag.Equals("Player") && playerTransform == null)
         {
             var mamaObj = other.gameObject;
             var mamaDuck = mamaObj.GetComponentInParent<MamaDuck>();

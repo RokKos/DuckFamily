@@ -2,10 +2,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Cinemachine;
 using UnityEngine;
 
 public class MamaDuck : MonoBehaviour
 {
+    [SerializeField] private CinemachineTargetGroup TargetGroup;
+
     private List<GameObject> ducksFolowing;
     
     // Start is called before the first frame update
@@ -18,7 +21,12 @@ public class MamaDuck : MonoBehaviour
     {
         if (other.tag.Equals("Ducklings"))
         {
-            ducksFolowing.Add(other.gameObject);
+            var duckling = other.GetComponentInParent<DuckFollowing>();
+            if (!ducksFolowing.Contains(duckling.gameObject))
+            {
+                ducksFolowing.Add(duckling.gameObject);
+                TargetGroup.AddMember(duckling.transform, 0.8f, 0.5f);
+            }
         }
     }
     
