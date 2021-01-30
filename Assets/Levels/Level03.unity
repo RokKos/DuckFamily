@@ -6625,8 +6625,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 470327384}
-  m_LocalRotation: {x: -0.1879893, y: -0.065547265, z: 0.12328654, w: 0.9721955}
-  m_LocalPosition: {x: 0.00000020480448, y: -0.00000048160166, z: 0.00000010164668}
+  m_LocalRotation: {x: 0.00000004470348, y: -0, z: -0.000000029802319, w: 1}
+  m_LocalPosition: {x: -0.00000008486103, y: 0.0000002388122, z: 0.0000008214207}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1279227434}
@@ -9577,8 +9577,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 726696804}
-  m_LocalRotation: {x: 0.3286453, y: -0.5837407, z: 0.27879253, w: 0.6881234}
-  m_LocalPosition: {x: 1.2800003, y: 2.7215133, z: -4.452022}
+  m_LocalRotation: {x: 0.31659073, y: -0.60142255, z: 0.28101382, w: 0.6775637}
+  m_LocalPosition: {x: 1.2799991, y: 2.7215128, z: -4.452022}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 470327385}
@@ -10616,8 +10616,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 798008348}
-  m_LocalRotation: {x: -0.50256056, y: 0.42947793, z: -0.31748328, w: 0.6798426}
-  m_LocalPosition: {x: -0.6614394, y: 1.3295658, z: 3.5040052}
+  m_LocalRotation: {x: -0.31659067, y: 0.60142255, z: -0.28101382, w: 0.6775637}
+  m_LocalPosition: {x: 0.10724485, y: -0.06623256, z: 3.8036053}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 726696811}
@@ -10635,7 +10635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5eb80d8e62d9d145bb50fb783c0f731, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PositionMode: 0
+  m_PositionMode: 1
   m_RotationMode: 1
   m_UpdateMethod: 2
   m_Targets:
@@ -16452,11 +16452,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa7155796051b734daa718462081dc5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_BindingMode: 1
+  m_BindingMode: 2
   m_FollowOffset: {x: 2.36, y: 2.96, z: -0.39}
   m_XDamping: 5.34
   m_YDamping: 4.21
-  m_ZDamping: 2.63
+  m_ZDamping: 2.91
   m_AngularDampingMode: 0
   m_PitchDamping: 0
   m_YawDamping: 0
@@ -16480,13 +16480,13 @@ MonoBehaviour:
   m_LookaheadIgnoreY: 0
   m_HorizontalDamping: 2.83
   m_VerticalDamping: 2.93
-  m_ScreenX: 0.5
-  m_ScreenY: 0.5
-  m_DeadZoneWidth: 0.406
-  m_DeadZoneHeight: 0.182
-  m_SoftZoneWidth: 0.95
-  m_SoftZoneHeight: 0.477
-  m_BiasX: -0.022999996
+  m_ScreenX: 0.5315671
+  m_ScreenY: 0.5160321
+  m_DeadZoneWidth: 0.65
+  m_DeadZoneHeight: 0.5312003
+  m_SoftZoneWidth: 0.9417452
+  m_SoftZoneHeight: 0.923
+  m_BiasX: -0.02317765
   m_BiasY: 0
   m_CenterOnActivate: 1
 --- !u!114 &1279227437
