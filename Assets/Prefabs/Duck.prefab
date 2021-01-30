@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetGroup: {fileID: 0}
-  scaleFactor: 20
+  scaleFactor: 33.9
   minVal: 1.8
   sinEffect: 0.8
 --- !u!1 &2512393758745411007
