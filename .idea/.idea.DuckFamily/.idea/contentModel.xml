@@ -118,6 +118,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="ClickToMove.cs" t="Include" />
+          <e p="Cross.cs" t="Include" />
           <e p="DuckFollowing.cs" t="Include" />
           <e p="MamaDuck.cs" t="Include" />
         </e>

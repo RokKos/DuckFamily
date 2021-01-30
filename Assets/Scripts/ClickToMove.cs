@@ -5,6 +5,7 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class ClickToMove : MonoBehaviour
 {
+    
     NavMeshAgent m_Agent;
     RaycastHit m_HitInfo = new RaycastHit();
 

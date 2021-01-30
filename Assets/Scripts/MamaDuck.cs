@@ -8,6 +8,7 @@ using UnityEngine.AI;
 
 public class MamaDuck : MonoBehaviour
 {
+    [SerializeField] private GameObject Marker = null;
     [SerializeField] private CinemachineTargetGroup TargetGroup;
     [SerializeField] private float scaleFactor = 20f;
     [SerializeField] private float minVal = 0.8f;
@@ -25,10 +26,21 @@ public class MamaDuck : MonoBehaviour
         ducksFolowing = new List<GameObject>();
         navMeshAgent = GetComponent<NavMeshAgent>();
         prevPos = transform.position;
+        Marker.SetActive(false);
     }
 
     private void Update()
     {
+        if (navMeshAgent.hasPath)
+        {
+            Marker.SetActive(true);
+            Marker.transform.position = navMeshAgent.destination;    
+        }
+        else
+        {
+            Marker.SetActive(false);
+        }
+
         var currentPos = transform.position;
         
         scaleValue += ((currentPos - prevPos).magnitude + navMeshAgent.speed) * Time.deltaTime;
