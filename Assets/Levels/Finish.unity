@@ -20254,7 +20254,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8244083495287012092, guid: 84085460d16f7aa46b184d4c505ebb5b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 84085460d16f7aa46b184d4c505ebb5b, type: 3}
 --- !u!1 &770826987 stripped
 GameObject:
@@ -31219,7 +31220,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8244083495287012092, guid: 3d8ccc134385a1a4895bac7cb4d52688, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3d8ccc134385a1a4895bac7cb4d52688, type: 3}
 --- !u!1 &1213714822 stripped
 GameObject:
@@ -40553,7 +40555,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8244083495287012092, guid: 67004f6918a3fbd4da475c15df05cf61, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 67004f6918a3fbd4da475c15df05cf61, type: 3}
 --- !u!1 &1525612775 stripped
 GameObject:
@@ -54686,7 +54689,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8244083495287012092, guid: e50b38d6fab1a4d49a0084212d96397d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e50b38d6fab1a4d49a0084212d96397d, type: 3}
 --- !u!1 &2047970776 stripped
 GameObject:
@@ -54990,7 +54994,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8244083495287012092, guid: 0f0ac3cdb3e17cb41ba7b5094a711adb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0f0ac3cdb3e17cb41ba7b5094a711adb, type: 3}
 --- !u!1 &2057115265 stripped
 GameObject:
@@ -57704,7 +57709,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ff2cd86797f752644bf19669434f8e0d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f908a8086e1c2fc4898f582a096dbc4c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.009
   m_Pitch: 1
