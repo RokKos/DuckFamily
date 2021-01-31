@@ -69,6 +69,8 @@ public class MamaDuck : MonoBehaviour
             }
         } else if (other.tag.Equals("Finish"))
         {
+            PlayerPrefs.SetInt("DucksFound", ducksFolowing.Count);
+            PlayerPrefs.Save();
             SceneManager.LoadScene("Finish");
         }
     }
