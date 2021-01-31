@@ -106,15 +106,15 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.2
-    agentHeight: 2
-    agentSlope: 45
+    agentRadius: 0.1
+    agentHeight: 0.42
+    agentSlope: 60
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.06666667
+    cellSize: 0.033333335
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
@@ -1184,7 +1184,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2512393756924756879, guid: 83fa6cb97568d274499e8867b1a6cc4f, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2512393756924756879, guid: 83fa6cb97568d274499e8867b1a6cc4f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1966,7 +1966,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a6caf84d3ea03ab478116d586c34458c, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a6caf84d3ea03ab478116d586c34458c, type: 3}
       propertyPath: m_LocalScale.x
@@ -2822,7 +2822,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 116388, guid: 647b719a58bf2434789128b75e810cec, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 116388, guid: 647b719a58bf2434789128b75e810cec, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10799,7 +10799,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 120806, guid: a0cee07249d5a5c4cb2790dad28db781, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 120806, guid: a0cee07249d5a5c4cb2790dad28db781, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11243,7 +11243,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8244083495287012094, guid: 4eab32a824813ef4f835432d00ee510f, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8244083495287012094, guid: 4eab32a824813ef4f835432d00ee510f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15907,8 +15907,12 @@ PrefabInstance:
       value: SM_Env_Bridge_Curved_01
       objectReference: {fileID: 0}
     - target: {fileID: 138012, guid: 2c556cf92c981904599239a20eff8561, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 138012, guid: 2c556cf92c981904599239a20eff8561, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 448368, guid: 2c556cf92c981904599239a20eff8561, type: 3}
       propertyPath: m_RootOrder
@@ -15920,7 +15924,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 448368, guid: 2c556cf92c981904599239a20eff8561, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.1637148
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 448368, guid: 2c556cf92c981904599239a20eff8561, type: 3}
       propertyPath: m_LocalScale.z
@@ -15928,15 +15932,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 448368, guid: 2c556cf92c981904599239a20eff8561, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.642486
+      value: 13.64
       objectReference: {fileID: 0}
     - target: {fileID: 448368, guid: 2c556cf92c981904599239a20eff8561, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.128773
+      value: -7.714
       objectReference: {fileID: 0}
     - target: {fileID: 448368, guid: 2c556cf92c981904599239a20eff8561, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 39.30786
+      value: 39.372
       objectReference: {fileID: 0}
     - target: {fileID: 448368, guid: 2c556cf92c981904599239a20eff8561, type: 3}
       propertyPath: m_LocalRotation.w
@@ -31740,49 +31744,53 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Snow_DirtPath_01
       objectReference: {fileID: 0}
+    - target: {fileID: 104338, guid: feab504d9437e5d4295f723466661538, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 466192, guid: feab504d9437e5d4295f723466661538, type: 3}
       propertyPath: m_RootOrder
       value: 349
       objectReference: {fileID: 0}
     - target: {fileID: 466192, guid: feab504d9437e5d4295f723466661538, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.628503
+      value: 15.331
       objectReference: {fileID: 0}
     - target: {fileID: 466192, guid: feab504d9437e5d4295f723466661538, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.751563
+      value: -8.416
       objectReference: {fileID: 0}
     - target: {fileID: 466192, guid: feab504d9437e5d4295f723466661538, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 43.824425
+      value: 43.119
       objectReference: {fileID: 0}
     - target: {fileID: 466192, guid: feab504d9437e5d4295f723466661538, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.18762589
+      value: 0.18782727
       objectReference: {fileID: 0}
     - target: {fileID: 466192, guid: feab504d9437e5d4295f723466661538, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.014324265
+      value: -0.011377034
       objectReference: {fileID: 0}
     - target: {fileID: 466192, guid: feab504d9437e5d4295f723466661538, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.9792869
+      value: -0.95996505
       objectReference: {fileID: 0}
     - target: {fileID: 466192, guid: feab504d9437e5d4295f723466661538, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0747568
+      value: -0.20750603
       objectReference: {fileID: 0}
     - target: {fileID: 466192, guid: feab504d9437e5d4295f723466661538, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -23.745
       objectReference: {fileID: 0}
     - target: {fileID: 466192, guid: feab504d9437e5d4295f723466661538, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -157.12
       objectReference: {fileID: 0}
     - target: {fileID: 466192, guid: feab504d9437e5d4295f723466661538, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -3.514
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: feab504d9437e5d4295f723466661538, type: 3}
@@ -34865,7 +34873,7 @@ Transform:
   - {fileID: 889120166}
   - {fileID: 2030291707}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1343445433
 PrefabInstance:
@@ -35358,7 +35366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8244083495287012094, guid: 4eab32a824813ef4f835432d00ee510f, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8244083495287012094, guid: 4eab32a824813ef4f835432d00ee510f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54766,6 +54774,10 @@ PrefabInstance:
     - target: {fileID: 161642, guid: feda4b49c3c814b46aee9038cb6e4c42, type: 3}
       propertyPath: m_Name
       value: SM_Env_Snow_DirtPath_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161642, guid: feda4b49c3c814b46aee9038cb6e4c42, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 491490, guid: feda4b49c3c814b46aee9038cb6e4c42, type: 3}
       propertyPath: m_RootOrder
