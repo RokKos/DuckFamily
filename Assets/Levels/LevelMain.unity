@@ -112,7 +112,7 @@ NavMeshSettings:
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
-    minRegionArea: 2
+    minRegionArea: 0.1
     manualCellSize: 0
     cellSize: 0.033333335
     manualTileSize: 0
@@ -1182,18 +1182,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Duck
       objectReference: {fileID: 0}
-    - target: {fileID: 2512393756924756876, guid: 83fa6cb97568d274499e8867b1a6cc4f, type: 3}
-      propertyPath: m_IsKinematic
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2512393756924756878, guid: 83fa6cb97568d274499e8867b1a6cc4f, type: 3}
-      propertyPath: m_Radius
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2512393756924756878, guid: 83fa6cb97568d274499e8867b1a6cc4f, type: 3}
-      propertyPath: m_StoppingDistance
-      value: 0.2
-      objectReference: {fileID: 0}
     - target: {fileID: 2512393756924756879, guid: 83fa6cb97568d274499e8867b1a6cc4f, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -2074,6 +2062,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
       value: 295
@@ -2831,6 +2827,10 @@ PrefabInstance:
     - target: {fileID: 116388, guid: 647b719a58bf2434789128b75e810cec, type: 3}
       propertyPath: m_Name
       value: SM_Env_Snow_GroundMound_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 116388, guid: 647b719a58bf2434789128b75e810cec, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 116388, guid: 647b719a58bf2434789128b75e810cec, type: 3}
       propertyPath: m_NavMeshLayer
@@ -3617,6 +3617,14 @@ PrefabInstance:
     - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
@@ -5372,6 +5380,14 @@ PrefabInstance:
     - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
@@ -7623,6 +7639,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
       value: 405
@@ -7964,6 +7988,14 @@ PrefabInstance:
     - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
@@ -10295,6 +10327,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
       value: 478
@@ -10895,6 +10935,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Flowers_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 139960, guid: e7b4dccb938d3a445bfc764b94a93230, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 139960, guid: e7b4dccb938d3a445bfc764b94a93230, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 496288, guid: e7b4dccb938d3a445bfc764b94a93230, type: 3}
       propertyPath: m_RootOrder
       value: 513
@@ -11296,6 +11344,10 @@ PrefabInstance:
     - target: {fileID: 8244083495287012094, guid: 4eab32a824813ef4f835432d00ee510f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8244083495287012095, guid: 4eab32a824813ef4f835432d00ee510f, type: 3}
+      propertyPath: m_Radius
+      value: 0.05
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4eab32a824813ef4f835432d00ee510f, type: 3}
@@ -13334,6 +13386,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
       value: 501
@@ -14198,6 +14258,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
       value: 422
@@ -14711,6 +14779,14 @@ PrefabInstance:
     - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
@@ -15911,12 +15987,16 @@ PrefabInstance:
       value: SM_Env_Bridge_Curved_01
       objectReference: {fileID: 0}
     - target: {fileID: 138012, guid: 2c556cf92c981904599239a20eff8561, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 138012, guid: 2c556cf92c981904599239a20eff8561, type: 3}
       propertyPath: m_NavMeshLayer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 138012, guid: 2c556cf92c981904599239a20eff8561, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 40
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 448368, guid: 2c556cf92c981904599239a20eff8561, type: 3}
       propertyPath: m_RootOrder
@@ -15928,7 +16008,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 448368, guid: 2c556cf92c981904599239a20eff8561, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 0.41
       objectReference: {fileID: 0}
     - target: {fileID: 448368, guid: 2c556cf92c981904599239a20eff8561, type: 3}
       propertyPath: m_LocalScale.z
@@ -16263,6 +16343,14 @@ PrefabInstance:
     - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
@@ -18288,6 +18376,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
       value: 297
@@ -19087,6 +19183,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
       value: 726
@@ -19455,6 +19559,14 @@ PrefabInstance:
     - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
@@ -21613,6 +21725,14 @@ PrefabInstance:
     - target: {fileID: 139960, guid: e7b4dccb938d3a445bfc764b94a93230, type: 3}
       propertyPath: m_Name
       value: SM_Env_Flowers_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 139960, guid: e7b4dccb938d3a445bfc764b94a93230, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 139960, guid: e7b4dccb938d3a445bfc764b94a93230, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 496288, guid: e7b4dccb938d3a445bfc764b94a93230, type: 3}
       propertyPath: m_RootOrder
@@ -23906,6 +24026,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
       value: 728
@@ -24103,6 +24231,10 @@ PrefabInstance:
     - target: {fileID: 111666, guid: 1f2e65945cb7d234b988343f441134d8, type: 3}
       propertyPath: m_Name
       value: SM_Env_Snow_DirtPath_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 111666, guid: 1f2e65945cb7d234b988343f441134d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 408138, guid: 1f2e65945cb7d234b988343f441134d8, type: 3}
       propertyPath: m_RootOrder
@@ -26496,7 +26628,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 122290, guid: fa9bcfece259b73429a1a259e9cf9260, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 122290, guid: fa9bcfece259b73429a1a259e9cf9260, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -26661,6 +26793,14 @@ PrefabInstance:
     - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
@@ -27191,6 +27331,14 @@ PrefabInstance:
     - target: {fileID: 139960, guid: e7b4dccb938d3a445bfc764b94a93230, type: 3}
       propertyPath: m_Name
       value: SM_Env_Flowers_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 139960, guid: e7b4dccb938d3a445bfc764b94a93230, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 139960, guid: e7b4dccb938d3a445bfc764b94a93230, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 496288, guid: e7b4dccb938d3a445bfc764b94a93230, type: 3}
       propertyPath: m_RootOrder
@@ -28914,6 +29062,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4567484523773219538, guid: 60ca1ab63dc2c8b4098ed224089ca0e3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4567484523773219549, guid: 60ca1ab63dc2c8b4098ed224089ca0e3, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -28956,6 +29108,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4567484523773219549, guid: 60ca1ab63dc2c8b4098ed224089ca0e3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4567484523773219551, guid: 60ca1ab63dc2c8b4098ed224089ca0e3, type: 3}
+      propertyPath: m_ShowToolkit
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4567484524564378095, guid: 60ca1ab63dc2c8b4098ed224089ca0e3, type: 3}
@@ -31658,6 +31814,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
       value: 499
@@ -32296,6 +32460,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
       value: 744
@@ -32505,6 +32677,14 @@ PrefabInstance:
     - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
@@ -33619,6 +33799,14 @@ PrefabInstance:
     - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_Name
       value: SM_Env_Flowers_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
@@ -34943,6 +35131,14 @@ PrefabInstance:
     - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
@@ -39829,6 +40025,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
       value: 406
@@ -39890,6 +40094,10 @@ PrefabInstance:
     - target: {fileID: 149906, guid: 1b3885406e53cdf4d8fce05166e0899d, type: 3}
       propertyPath: m_Name
       value: SM_Env_CropRow_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 149906, guid: 1b3885406e53cdf4d8fce05166e0899d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 496532, guid: 1b3885406e53cdf4d8fce05166e0899d, type: 3}
       propertyPath: m_RootOrder
@@ -40350,6 +40558,14 @@ PrefabInstance:
     - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
@@ -43460,6 +43676,10 @@ PrefabInstance:
     - target: {fileID: 111666, guid: 1f2e65945cb7d234b988343f441134d8, type: 3}
       propertyPath: m_Name
       value: SM_Env_Snow_DirtPath_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 111666, guid: 1f2e65945cb7d234b988343f441134d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 408138, guid: 1f2e65945cb7d234b988343f441134d8, type: 3}
       propertyPath: m_RootOrder
@@ -46724,6 +46944,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Snow_CropRow_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 108466, guid: bde2753919cf6cd4d8357aeeb4ed30c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 446598, guid: bde2753919cf6cd4d8357aeeb4ed30c7, type: 3}
       propertyPath: m_RootOrder
       value: 528
@@ -46999,6 +47223,14 @@ PrefabInstance:
     - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
@@ -48903,6 +49135,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
       value: 298
@@ -50619,6 +50859,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
       value: 503
@@ -51549,6 +51797,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Snow_CropRow_03
       objectReference: {fileID: 0}
+    - target: {fileID: 108466, guid: bde2753919cf6cd4d8357aeeb4ed30c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 446598, guid: bde2753919cf6cd4d8357aeeb4ed30c7, type: 3}
       propertyPath: m_RootOrder
       value: 350
@@ -52054,6 +52306,14 @@ PrefabInstance:
     - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
@@ -53164,6 +53424,14 @@ PrefabInstance:
     - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
@@ -55299,6 +55567,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Flowers_01
       objectReference: {fileID: 0}
+    - target: {fileID: 139960, guid: e7b4dccb938d3a445bfc764b94a93230, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 139960, guid: e7b4dccb938d3a445bfc764b94a93230, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 496288, guid: e7b4dccb938d3a445bfc764b94a93230, type: 3}
       propertyPath: m_RootOrder
       value: 296
@@ -55360,6 +55636,14 @@ PrefabInstance:
     - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104858, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 483116, guid: 8264d38330b69044a8a7dff1b33b4fa7, type: 3}
       propertyPath: m_RootOrder
@@ -57299,7 +57583,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 3858874080561823835}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.23
+  m_Radius: 0.05
   m_Speed: 2
   m_Acceleration: 3.27
   avoidancePriority: 50
@@ -57474,7 +57758,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 3894365866482885096}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.23
+  m_Radius: 0.05
   m_Speed: 2
   m_Acceleration: 3.27
   avoidancePriority: 50
@@ -57544,7 +57828,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 7618847287678231885}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.23
+  m_Radius: 0.05
   m_Speed: 2
   m_Acceleration: 3.27
   avoidancePriority: 50
@@ -57724,7 +58008,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 8241339945442266118}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.23
+  m_Radius: 0.05
   m_Speed: 2
   m_Acceleration: 3.27
   avoidancePriority: 50
