@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="288117d3-a8a5-43d3-a257-0ade132c7bb5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/LevelMain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/LevelMain.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DuckFamily/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DuckFamily/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DuckFamily/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DuckFamily/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Settings/Demo.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Settings/Demo.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Levels/Finish.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Finish.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DuckFollowing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenuScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnableDucks.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB6717C6-1301-4D2A-BA16-A3363B50FCDD/88/f31b1afd/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.7.1/Runtime/Behaviours/CinemachineFreeLook.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.7.1/Editor/Editors/CinemachineFreeLookEditor.cs" root0="SKIP_HIGHLIGHTING" />
@@ -54,6 +57,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ClickToMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenuScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnableDucks.cs" />
       </list>
     </option>
   </component>
@@ -216,39 +220,39 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs</url>
-          <line>65</line>
+          <line>66</line>
           <properties documentPath="C:\Personal\DuckFamily\Assets\Scripts\MamaDuck.cs" initialLine="20">
             <startOffsets>
-              <option value="2022" />
+              <option value="2057" />
             </startOffsets>
             <endOffsets>
-              <option value="2061" />
+              <option value="2096" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs</url>
-          <line>78</line>
+          <line>84</line>
           <properties documentPath="C:\Personal\DuckFamily\Assets\Scripts\MamaDuck.cs" initialLine="28">
             <startOffsets>
-              <option value="2401" />
+              <option value="2597" />
             </startOffsets>
             <endOffsets>
-              <option value="2429" />
+              <option value="2625" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs</url>
-          <line>81</line>
+          <line>87</line>
           <properties documentPath="C:\Personal\DuckFamily\Assets\Scripts\MamaDuck.cs" initialLine="31">
             <startOffsets>
-              <option value="2449" />
+              <option value="2645" />
             </startOffsets>
             <endOffsets>
-              <option value="2487" />
+              <option value="2683" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="6" />
@@ -281,13 +285,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs</url>
-          <line>59</line>
+          <line>60</line>
           <properties documentPath="C:\Personal\DuckFamily\Assets\Scripts\MamaDuck.cs" initialLine="18">
             <startOffsets>
-              <option value="1736" />
+              <option value="1771" />
             </startOffsets>
             <endOffsets>
-              <option value="1770" />
+              <option value="1805" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="10" />
