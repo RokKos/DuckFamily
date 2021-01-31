@@ -11357,7 +11357,8 @@ PrefabInstance:
       propertyPath: m_StoppingDistance
       value: 1.41
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8244083495287012092, guid: 4eab32a824813ef4f835432d00ee510f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4eab32a824813ef4f835432d00ee510f, type: 3}
 --- !u!1 &447374191 stripped
 GameObject:
@@ -29099,7 +29100,8 @@ PrefabInstance:
       propertyPath: m_StoppingDistance
       value: 1.41
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8244083495287012092, guid: 4eab32a824813ef4f835432d00ee510f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4eab32a824813ef4f835432d00ee510f, type: 3}
 --- !u!1 &1118139960 stripped
 GameObject:
@@ -35493,7 +35495,8 @@ PrefabInstance:
       propertyPath: m_StoppingDistance
       value: 1.41
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8244083495287012092, guid: 4eab32a824813ef4f835432d00ee510f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4eab32a824813ef4f835432d00ee510f, type: 3}
 --- !u!1 &1360727460 stripped
 GameObject:
@@ -57695,19 +57698,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3858874080561823831
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3858874080561823835}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88faa5cbea0ab864fb80a9e24ffd8235, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  feather_particles: {fileID: 0}
 --- !u!1 &3858874080561823835
 GameObject:
   m_ObjectHideFlags: 0
@@ -57718,7 +57708,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3858874080561823829}
   - component: {fileID: 3858874080561823828}
-  - component: {fileID: 3858874080561823831}
   - component: {fileID: 3858874080561823830}
   m_Layer: 0
   m_Name: BabyDuck (2)
@@ -57771,19 +57760,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &3894365866482885092
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3894365866482885096}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88faa5cbea0ab864fb80a9e24ffd8235, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  feather_particles: {fileID: 0}
 --- !u!54 &3894365866482885093
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -57848,7 +57824,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3894365866482885094}
   - component: {fileID: 3894365866482885095}
-  - component: {fileID: 3894365866482885092}
   - component: {fileID: 3894365866482885093}
   m_Layer: 0
   m_Name: BabyDuck (3)
@@ -57985,7 +57960,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4567484524886747452}
   m_LocalRotation: {x: 0.12092772, y: -0.3773981, z: 0.049781136, w: 0.91677094}
-  m_LocalPosition: {x: -16.454, y: 1.111, z: -12.773}
+  m_LocalPosition: {x: -15.569, y: 1.449, z: -13.666}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -58132,19 +58107,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7618847287678231873
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7618847287678231885}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88faa5cbea0ab864fb80a9e24ffd8235, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  feather_particles: {fileID: 0}
 --- !u!195 &7618847287678231874
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -58193,7 +58155,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7618847287678231875}
   - component: {fileID: 7618847287678231874}
-  - component: {fileID: 7618847287678231873}
   - component: {fileID: 7618847287678231872}
   m_Layer: 0
   m_Name: BabyDuck (4)
@@ -58300,7 +58261,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8241339945442266120}
   - component: {fileID: 8241339945442266121}
-  - component: {fileID: 8241339945442266122}
   - component: {fileID: 8241339945442266123}
   m_Layer: 0
   m_Name: BabyDuck (1)
@@ -58347,19 +58307,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &8241339945442266122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8241339945442266118}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88faa5cbea0ab864fb80a9e24ffd8235, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  feather_particles: {fileID: 0}
 --- !u!54 &8241339945442266123
 Rigidbody:
   m_ObjectHideFlags: 0
