@@ -62,15 +62,17 @@ public class MamaDuck : MonoBehaviour
     {
         if (other.tag.Equals("Ducklings"))
         {
-            quack.Play();
+            
             var duckling = other.GetComponentInParent<DuckFollowing>();
             if (!ducksFolowing.Contains(duckling.gameObject))
             {
+                quack.Play();
                 ducksFolowing.Add(duckling.gameObject);
-                duckFoundText.text = ducksFolowing.Count.ToString() + "/7";
+                var numDucs = Math.Min(7, ducksFolowing.Count);
+                duckFoundText.text =  numDucs.ToString() + "/7";
                 TargetGroup.AddMember(duckling.transform, 0.8f, 0.5f);
             }
-        } else if (other.tag.Equals("Finish"))
+        } else if (other.tag.Equals("Finish") && ducksFolowing.Count == 5)
         {
             PlayerPrefs.SetInt("DucksFound", ducksFolowing.Count);
             PlayerPrefs.Save();
