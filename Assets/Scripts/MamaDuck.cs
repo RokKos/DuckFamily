@@ -5,6 +5,7 @@ using System.Linq;
 using Cinemachine;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
 
 public class MamaDuck : MonoBehaviour
 {
@@ -18,6 +19,8 @@ public class MamaDuck : MonoBehaviour
     private Vector3 prevPos;
     private float scaleValue = 0.0f;
     private NavMeshAgent navMeshAgent = null;
+
+    [SerializeField] private Text duckFoundText = null;
     
     
     // Start is called before the first frame update
@@ -27,6 +30,7 @@ public class MamaDuck : MonoBehaviour
         navMeshAgent = GetComponent<NavMeshAgent>();
         prevPos = transform.position;
         Marker.SetActive(false);
+        duckFoundText.text = ducksFolowing.Count.ToString() + "/7"; 
     }
 
     private void Update()
@@ -58,6 +62,7 @@ public class MamaDuck : MonoBehaviour
             var duckling = other.GetComponentInParent<DuckFollowing>();
             if (!ducksFolowing.Contains(duckling.gameObject))
             {
+                duckFoundText.text = ducksFolowing.Count.ToString() + "/7"; 
                 ducksFolowing.Add(duckling.gameObject);
                 TargetGroup.AddMember(duckling.transform, 0.8f, 0.5f);
             }
