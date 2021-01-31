@@ -5,6 +5,7 @@ using System.Linq;
 using Cinemachine;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MamaDuck : MonoBehaviour
@@ -66,6 +67,9 @@ public class MamaDuck : MonoBehaviour
                 ducksFolowing.Add(duckling.gameObject);
                 TargetGroup.AddMember(duckling.transform, 0.8f, 0.5f);
             }
+        } else if (other.tag.Equals("Finish"))
+        {
+            SceneManager.LoadScene("Finish");
         }
     }
     
