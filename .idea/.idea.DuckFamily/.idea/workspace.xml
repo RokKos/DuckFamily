@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="288117d3-a8a5-43d3-a257-0ade132c7bb5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DuckFamily/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DuckFamily/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Phone_Camera_2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/Phone_Camera_2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/_uack3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/_uack3.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +57,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DuckFollowing.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ClickToMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenuScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnableDucks.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs" />
       </list>
     </option>
   </component>
@@ -221,39 +225,39 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs</url>
-          <line>66</line>
+          <line>69</line>
           <properties documentPath="C:\Personal\DuckFamily\Assets\Scripts\MamaDuck.cs" initialLine="20">
             <startOffsets>
-              <option value="2057" />
+              <option value="2174" />
             </startOffsets>
             <endOffsets>
-              <option value="2096" />
+              <option value="2174" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs</url>
-          <line>84</line>
+          <line>87</line>
           <properties documentPath="C:\Personal\DuckFamily\Assets\Scripts\MamaDuck.cs" initialLine="28">
             <startOffsets>
-              <option value="2597" />
+              <option value="2675" />
             </startOffsets>
             <endOffsets>
-              <option value="2625" />
+              <option value="2703" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs</url>
-          <line>87</line>
+          <line>90</line>
           <properties documentPath="C:\Personal\DuckFamily\Assets\Scripts\MamaDuck.cs" initialLine="31">
             <startOffsets>
-              <option value="2645" />
+              <option value="2723" />
             </startOffsets>
             <endOffsets>
-              <option value="2683" />
+              <option value="2761" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="6" />
@@ -286,13 +290,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs</url>
-          <line>60</line>
+          <line>62</line>
           <properties documentPath="C:\Personal\DuckFamily\Assets\Scripts\MamaDuck.cs" initialLine="18">
             <startOffsets>
-              <option value="1771" />
+              <option value="1824" />
             </startOffsets>
             <endOffsets>
-              <option value="1805" />
+              <option value="1858" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="10" />
@@ -312,26 +316,26 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs</url>
-          <line>73</line>
+          <line>76</line>
           <properties documentPath="C:\Personal\DuckFamily\Assets\Scripts\MamaDuck.cs" initialLine="73">
             <startOffsets>
-              <option value="2350" />
+              <option value="2428" />
             </startOffsets>
             <endOffsets>
-              <option value="2383" />
+              <option value="2461" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/MamaDuck.cs</url>
-          <line>69</line>
+          <line>72</line>
           <properties documentPath="C:\Personal\DuckFamily\Assets\Scripts\MamaDuck.cs" initialLine="69">
             <startOffsets>
-              <option value="2190" />
+              <option value="2268" />
             </startOffsets>
             <endOffsets>
-              <option value="2191" />
+              <option value="2269" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="18" />

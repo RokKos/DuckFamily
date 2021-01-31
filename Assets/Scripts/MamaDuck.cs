@@ -23,6 +23,8 @@ public class MamaDuck : MonoBehaviour
 
     [SerializeField] private Text duckFoundText = null;
     
+    [SerializeField] private AudioSource quack;
+    
     
     // Start is called before the first frame update
     void Start()
@@ -60,6 +62,7 @@ public class MamaDuck : MonoBehaviour
     {
         if (other.tag.Equals("Ducklings"))
         {
+            quack.Play();
             var duckling = other.GetComponentInParent<DuckFollowing>();
             if (!ducksFolowing.Contains(duckling.gameObject))
             {
