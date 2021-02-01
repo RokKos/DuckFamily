@@ -8153,8 +8153,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -1139, y: 556}
-  m_SizeDelta: {x: 843.1, y: 180.1}
+  m_AnchoredPosition: {x: -1090, y: 556}
+  m_SizeDelta: {x: 940.2, y: 180.1}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &260953435
 MonoBehaviour:
@@ -8189,7 +8189,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Help momma find her ducklings
+  m_Text: Help Momma Duck find her ducklings
 --- !u!222 &260953436
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25794,8 +25794,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -887, y: -22}
-  m_SizeDelta: {x: 1400, y: 180.1}
+  m_AnchoredPosition: {x: -1541, y: 9}
+  m_SizeDelta: {x: 478.73, y: 180.1}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &900387576
 MonoBehaviour:
@@ -25830,8 +25830,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Developer - Rok Kos / Level Design - MelsGames / Character Design - Mateja
-    G.
+  m_Text: "Developer - Rok Kos \nLevel Design - MelsGames \nCharacter Design - Mateja
+    G."
 --- !u!222 &900387577
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -45476,7 +45476,7 @@ RectTransform:
   m_GameObject: {fileID: 1635645588}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 7.635056, y: 3.596352, z: 3.596352}
+  m_LocalScale: {x: 7.2216945, y: 3.4016457, z: 3.4016457}
   m_Children: []
   m_Father: {fileID: 79577215}
   m_RootOrder: 5
