@@ -105,6 +105,10 @@ MonoBehaviour:
   minVal: 1.8
   sinEffect: 0.8
   duckFoundText: {fileID: 0}
+  possible_quacks:
+  - {fileID: 8300000, guid: d5e6ea51f1cb27a4fa5b52d6205130d7, type: 3}
+  - {fileID: 8300000, guid: 80d555e7fd950c74b88d0e15e1efe2ee, type: 3}
+  - {fileID: 8300000, guid: a11d2e74550fe21499fabefedf7796d7, type: 3}
   quack: {fileID: 5870922946591752351}
 --- !u!82 &5870922946591752351
 AudioSource:
@@ -118,7 +122,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d5e6ea51f1cb27a4fa5b52d6205130d7, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.497
   m_Pitch: 1
   Loop: 0
   Mute: 0

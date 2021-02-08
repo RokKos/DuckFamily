@@ -7,6 +7,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class MamaDuck : MonoBehaviour
 {
@@ -22,6 +23,9 @@ public class MamaDuck : MonoBehaviour
     private NavMeshAgent navMeshAgent = null;
 
     [SerializeField] private Text duckFoundText = null;
+
+    [SerializeField] private List<AudioClip> possible_quacks;
+    
     
     [SerializeField] private AudioSource quack;
     
@@ -66,6 +70,8 @@ public class MamaDuck : MonoBehaviour
             var duckling = other.GetComponentInParent<DuckFollowing>();
             if (!ducksFolowing.Contains(duckling.gameObject))
             {
+                var quackClip = possible_quacks[Random.Range(0, possible_quacks.Count)];
+                quack.clip = quackClip;
                 quack.Play();
                 ducksFolowing.Add(duckling.gameObject);
                 var numDucs = Math.Min(8, ducksFolowing.Count);
