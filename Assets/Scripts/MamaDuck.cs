@@ -68,8 +68,8 @@ public class MamaDuck : MonoBehaviour
             {
                 quack.Play();
                 ducksFolowing.Add(duckling.gameObject);
-                var numDucs = Math.Min(7, ducksFolowing.Count);
-                duckFoundText.text =  numDucs.ToString() + "/7";
+                var numDucs = Math.Min(8, ducksFolowing.Count);
+                duckFoundText.text =  numDucs.ToString() + "/8";
                 TargetGroup.AddMember(duckling.transform, 0.8f, 0.5f);
             }
         } else if (other.tag.Equals("Finish") && ducksFolowing.Count == 5)
