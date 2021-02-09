@@ -78,7 +78,7 @@ public class MamaDuck : MonoBehaviour
                 duckFoundText.text =  numDucs.ToString() + "/8";
                 TargetGroup.AddMember(duckling.transform, 0.8f, 0.5f);
             }
-        } else if (other.tag.Equals("Finish") && ducksFolowing.Count == 5)
+        } else if (other.tag.Equals("Finish") && ducksFolowing.Count >= 5)
         {
             PlayerPrefs.SetInt("DucksFound", ducksFolowing.Count);
             PlayerPrefs.Save();
